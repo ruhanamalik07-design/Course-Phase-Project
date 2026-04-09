@@ -1,22 +1,56 @@
-<section>
-  <h2>My Projects</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <div class="filter-buttons">
-    <button onclick="filterProjects('all')">All</button>
-    <button onclick="filterProjects('web')">Web</button>
-  </div>
+<header>
+  <h1>Ruhana Malik</h1>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <button id="darkModeBtn">🌙 Dark Mode</button>
+</header>
+
+<section class="page-hero">
+  <h2>My Projects</h2>
+  <p>Work I have built</p>
+</section>
+
+<main class="page-layout">
 
   <div class="projects-container">
 
     <div class="project-card" data-category="web">
-      <h3>HTML CSS JS Project</h3>
-      <p>Web development project using HTML, CSS, JS</p>
+      <h3>Portfolio Website</h3>
+      <p>Responsive portfolio with animations.</p>
+
+      <a href="https://github.com/ruhanamalik07-design/ruhana/" target="_blank">View Project</a>
     </div>
 
     <div class="project-card" data-category="web">
-      <h3>More Projects</h3>
-      <p>Explore more on GitHub</p>
+      <h3>Some other Projects</h3>
+      <p>More projects related to HTML,CSS and JS.</p>
+
+      <a href="https://github.com/ruhanamalik07-design/html-css-nad-js-assignment/" target="_blank">View Project</a>
     </div>
 
   </div>
-</section>
+
+</main>
+
+<button id="topBtn">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
