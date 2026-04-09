@@ -1,25 +1,22 @@
-<main>
-  <section>
-    <h2>My Projects</h2>
+<section>
+  <h2>My Projects</h2>
 
-    <div class="projects-container">
+  <div class="filter-buttons">
+    <button onclick="filterProjects('all')">All</button>
+    <button onclick="filterProjects('web')">Web</button>
+  </div>
 
-      <div class="project-card">
-        <h3>HTML CSS JS Project</h3>
-        <p>This project demonstrates my skills in HTML, CSS, and JavaScript.</p>
-        <a href="https://github.com/ruhanamalik07-design/html-css-nad-js-assignment" target="_blank">
-          View Project
-        </a>
-      </div>
+  <div class="projects-container">
 
-      <div class="project-card">
-        <h3>More Projects</h3>
-        <p>Explore more of my work on GitHub.</p>
-        <a href="https://github.com/ruhanamalik07-design" target="_blank">
-          Visit GitHub
-        </a>
-      </div>
-
+    <div class="project-card" data-category="web">
+      <h3>HTML CSS JS Project</h3>
+      <p>Web development project using HTML, CSS, JS</p>
     </div>
-  </section>
-</main>
+
+    <div class="project-card" data-category="web">
+      <h3>More Projects</h3>
+      <p>Explore more on GitHub</p>
+    </div>
+
+  </div>
+</section>
