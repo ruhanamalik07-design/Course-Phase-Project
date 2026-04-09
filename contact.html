@@ -1,18 +1,30 @@
 <main>
-<section>
-  <h2>Contact Me</h2>
+  <section>
+    <h2>Contact Me</h2>
 
-  <form>
-    <label for="name">Name</label>
-    <input id="name" name="name" type="text" name="name" required minlength="2">
+    <form class="contact-form">
 
-   <label for="email">Email</label>
-  <input type="email" id="email" name="email" required>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required minlength="2">
+      </div>
 
-  <label for="message">Message</label>
-  <textarea id="message" name="message" required minlength="10"></textarea>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
 
-  <button type="submit">Send</button>
-  </form>
-</section>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required minlength="10"></textarea>
+      </div>
+
+      <p id="success-msg" style="display:none; color: green;">
+             Message sent successfully!
+      </p>
+
+      <button type="submit">Send Message</button>
+
+    </form>
+  </section>
 </main>
