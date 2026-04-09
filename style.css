@@ -19,3 +19,29 @@ section {
   margin: 20px;
   padding: 20px;
 }
+
+/* ID Selector */
+#about {
+  background: #ffffff;
+}
+
+/* Descendant Selector */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+
+/* Class Selector */
+.skills {
+  color: blue;
+}
+
+/* Attribute Selector */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+}
